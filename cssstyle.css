@@ -1,0 +1,71 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.logo-docplanner{
+  width: 268px;
+  height: 33px;
+  padding: 12px;
+}
+
+header {
+  display: flex; 
+  justify-content: space-around;
+}
+
+  header ul {
+    display: flex;
+  }
+
+header ul li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.menu-item {
+  text-decoration:none;
+  color: #ababab;
+}
+
+.menu-item-about{
+  color:#00b39b;
+  
+}
+
+.menu-item: hover{
+color: #00b39b;
+}
+
+.lead__logo{
+  display:block;
+  margin:0 auto
+}
+
+main h1{
+  text-align:center;
+  color: #00b39b;
+}
+
+.intro-p{
+  display:flex;
+  justify-content: space-between;
+  margin: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.dropdown {
+  display:none;
+  flex-direction: column;
+  position: absolute;
+  
+}
+
+.menu-item-drop:hover + .dropdown {
+ display: flex
+}
+
+.dropdown:hover {
+  display:flex
+}
